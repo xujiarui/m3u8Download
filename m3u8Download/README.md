@@ -1,9 +1,5 @@
 # m3u8Dowload
 <h1>java下载m3u8视频，解密并合并ts</h1>
-<h2>
-m3u8链接获取方式以及代码分析请参见：
-</h2>
-https://blog.csdn.net/qq494257084/article/details/103551293
 <h3>准备</h3>
 <pre>
 JDK：1.8
