@@ -5,8 +5,6 @@
 JDK：1.8
 开发环境：IntelliJ IDEA
 用于解密的jar包：bcprov-jdk16-139.jar
-了解一些m3u8标签作用
-https://www.cnblogs.com/shakin/p/3870442.html
 </pre>
 <h3>使用方法</h3>
 <pre>
