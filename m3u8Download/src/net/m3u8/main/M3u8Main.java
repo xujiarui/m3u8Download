@@ -4,6 +4,9 @@ import net.m3u8.download.M3u8DownloadFactory;
 import net.m3u8.listener.DownloadListener;
 import net.m3u8.utils.Constant;
 
+import java.util.HashMap;
+import java.util.Map;
+
 /**
  * @author liyaling
  * @email ts_liyaling@qq.com
@@ -39,9 +42,9 @@ public class M3u8Main {
         //设置监听器间隔（单位：毫秒）
         m3u8Download.setInterval(500L);
         //添加额外请求头
-      /*  Map<String, Object> headersMap = new HashMap<>();
+        Map<String, Object> headersMap = new HashMap<>();
         headersMap.put("Content-Type", "text/html;charset=utf-8");
-        m3u8Download.addRequestHeaderMap(headersMap);*/
+        m3u8Download.addRequestHeaderMap(headersMap);
         //如果需要的话设置http代理
         //m3u8Download.setProxy("172.50.60.3",8090);
         //添加监听器
